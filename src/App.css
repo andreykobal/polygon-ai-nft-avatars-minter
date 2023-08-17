@@ -97,6 +97,7 @@ button {
 
 
 
+
 @media (max-width: 768px) { 
   .mint-container {
       flex-direction: column; 
@@ -110,4 +111,32 @@ button {
   .mint-container > div {
       height: auto; 
   }
+
+  
+
+.MobileOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(35, 24, 65, 0.95); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.MobileOverlay h4 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.MobileOverlay button {
+  width: 100%;
+  background-color: #fc0ff54d;
+  margin-top: 0;
+}
+
 }
