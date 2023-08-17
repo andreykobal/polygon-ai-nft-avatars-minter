@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      {isMobile ? (
+      {isMobile && !window.ethereum ? (
         <div className="MobileOverlay">
           <img src={logo} alt="logo" style={{ width: '150px' }} /> 
           <h1 style={{ textAlign: 'center', fontSize: '24px', lineHeight: '28px', margin: '16px 0'}}>Mint Your AI NFT Avatar</h1>
