@@ -11,11 +11,11 @@ public class Check1155Balance : MonoBehaviour
     async public void Check1155TotalBalance()
     {
         string contractAbi = ContractAbi.Abi1155;
-        string contractAddress = "0x9f109bD4cC26357184CF6b1f87cFaadd8233E432";
+        string contractAddress = "0xCA45E197E11804a2643dB50D87f03378c56e466d";
         string method = "getTotalBalance";
         
         var walletAddress = PlayerPrefs.GetString("Account");
-        var provider = new CustomJsonRpcProvider("https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "5611");
+        var provider = new JsonRpcProvider("https://rpc-mumbai.maticvigil.com/");
         var contract = new Contract(contractAbi, contractAddress, provider);
         var calldata = await contract.Call(method, new object[]
         {

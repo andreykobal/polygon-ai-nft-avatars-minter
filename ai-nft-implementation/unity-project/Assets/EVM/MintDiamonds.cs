@@ -19,8 +19,8 @@ public class MintDiamonds : MonoBehaviour
 
     async public void Mint1155Diamonds()
     {
-        string chainId = "5611";
-        string contractAddress = "0x9f109bD4cC26357184CF6b1f87cFaadd8233E432";
+        string chainId = "80001";
+        string contractAddress = "0xCA45E197E11804a2643dB50D87f03378c56e466d";
         string value = "0";
         string abi = ContractAbi.Abi1155;
         string method = "batchMint";

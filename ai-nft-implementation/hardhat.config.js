@@ -8,9 +8,14 @@ const polyScan = process.env.POLYGONSCAN
 module.exports = {
   solidity: "0.8.0",
   networks: {
-    klaytnBaobab: {
-      chainId: 1001,
-      url: "https://public-en-baobab.klaytn.net",
+    matic: {
+      chainId: 137,
+      url: `https://rpc-mainnet.maticvigil.com/v1/${maticUrl}`,
+      accounts: [privateKey]
+    },
+    mumbai: {
+      chainId: 80001,
+      url: "https://rpc-mumbai.maticvigil.com",
       accounts: [privateKey]
     },
     goerli: {

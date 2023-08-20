@@ -15,8 +15,8 @@ public class GetTokensMetadata : MonoBehaviour
     {
         nftDataList.Clear();
 
-        string contractAddress = "0xd68B7C666b269B3FC9daAc7a3a446bE32999920E";
-        var provider = new CustomJsonRpcProvider("https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "5611");
+        string contractAddress = "0xD837D98194884Bc4dEF43EEdc0aB4e22fA20F174";
+        var provider = new JsonRpcProvider("https://rpc-mumbai.maticvigil.com/");
         await GetAndProcessRequests(contractAddress, provider, "opbnb");
         
     }

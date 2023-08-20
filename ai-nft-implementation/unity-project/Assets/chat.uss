@@ -17,7 +17,7 @@
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    background-color: rgba(240, 185, 11, 0.75);
+    background-color: rgba(131, 96, 229, 0.75);
     transition-duration: 0.25s;
     transition-timing-function: ease-in-out;
     font-size: 18px;
@@ -26,5 +26,5 @@
 }
 
 .play:hover {
-    background-color: rgba(240, 185, 11, 1);
+    background-color: rgba(131, 96, 229, 1);
 }

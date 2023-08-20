@@ -14,7 +14,7 @@ public class CheckNFTOwnership : MonoBehaviour
         string contractAbi = ContractAbi.SingleChainAbi;
         string method = "getBalance";
 
-        var provider = new CustomJsonRpcProvider("https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "5611");
+        var provider = new JsonRpcProvider("https://rpc-mumbai.maticvigil.com/");
         var contract = new Contract(contractAbi, contractAddress, provider);
         Debug.Log("Contract: " + contract);
 
