@@ -1,7 +1,7 @@
 # Minting AI NFT Avatars on Polygon
 ## Frontend, Smart Contract, Unity Integration, AI Integration and Voice Interactions
 
-This repository hosts a cutting-edge solution that enables users to create, mint, and interact with AI NFT avatars on <img src="https://github.com/andreykobal/bitcoin-rootstock-ai-nft-avatars-minter/assets/19206978/22cee888-e3b9-48b3-8e93-51bec8eae4f1" width="16px"/> Polygon.
+This repository hosts a cutting-edge solution that enables users to create, mint, and interact with AI NFT avatars on <img src="https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/0da36190-f9ab-4437-bf8e-368f0bc158e0" width="16px"/> Polygon.
 
 - Users can transform their selfies into animated avatars using this solution.
 - The avatars can be enhanced with custom or AI-generated traits, allowing for personalized customization.
