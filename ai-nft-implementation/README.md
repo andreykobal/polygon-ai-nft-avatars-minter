@@ -1,13 +1,13 @@
-# AI NFT Avatars on Bitcoin
+# AI NFT Avatars on Polygon
 
 ![polygon-cover](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/f279e125-d201-442b-81b3-ceff2ff2ebba)
 
 
-Welcome to the **AI NFT Avatars on Bitcoin** GitHub repository! This repository contains the Unity game project along with the smart contracts used in the game. Interactive AI NFT Avatars is an exciting 3D game where players use NFT avatars, complete quests, collect diamonds, and explore magical worlds.
+Welcome to the **AI NFT Avatars on Polygon** GitHub repository! This repository contains the Unity game project along with the smart contracts used in the game. Interactive AI NFT Avatars is an exciting 3D game where players use NFT avatars, complete quests, collect diamonds, and explore magical worlds.
 
 ## Project Setup
 
-To set up the AI NFT Avatars on Bitcoin project, please follow these steps:
+To set up the AI NFT Avatars on Polygon project, please follow these steps:
 
 1. Clone the repository to your local machine using the following command:
    ```
@@ -22,7 +22,7 @@ To set up the AI NFT Avatars on Bitcoin project, please follow these steps:
 
 5. Set up the Metamask extension in your preferred browser and create a wallet.
 
-6. Configure the Metamask wallet by connecting it to the Bitcoin Testnet network and obtaining the necessary testnet tokens [Rootstock Docs](https://dev.rootstock.io/kb/remix-and-metamask-with-rsk-testnet/) 
+6. Configure the Metamask wallet by connecting it to the Polygon Testnet network and obtaining the necessary testnet tokens [Rootstock Docs](https://dev.rootstock.io/kb/remix-and-metamask-with-rsk-testnet/) 
 
 7. Build and run the game to start playing Interactive AI NFT Avatars!
 
