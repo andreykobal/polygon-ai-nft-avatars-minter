@@ -5,6 +5,8 @@ import { NFTStorage, File, Blob } from 'nft.storage';
 
 import btcLogo from './assets/btc.png';
 import ethLogo from './assets/eth.png';
+import polygonLogo from './assets/polygon.png';
+import mantleLogo from './assets/mantle.png';
 import logo from './assets/logo.png';
 
 const NFT_STORAGE_TOKEN = process.env.REACT_APP_NFT_STORAGE_TOKEN;
@@ -116,7 +118,30 @@ function MintNFT() {
                 },
                 rpcUrls: ['https://public-node.testnet.rsk.co'],
                 blockExplorerUrls: ['https://explorer.testnet.rsk.co']
+            },
+            'Mantle': {
+                chainId: '0x1388',
+                chainName: 'Mantle',
+                nativeCurrency: {
+                    name: 'MNT',
+                    symbol: 'MNT',
+                    decimals: 18
+                },
+                rpcUrls: ['https://rpc.mantle.xyz/'],
+                blockExplorerUrls: ['https://explorer.mantle.xyz/']
+            },
+            'Polygon': {
+                chainId: '0x13881',
+                chainName: 'Polygon',
+                nativeCurrency: {
+                    name: 'MATIC',
+                    symbol: 'MATIC',
+                    decimals: 18
+                },
+                rpcUrls: ['https://rpc-mumbai.maticvigil.com/'],
+                blockExplorerUrls: ['https://mumbai.polygonscan.com/']
             }
+
         };
 
         const currentNetwork = NETWORKS[network];
@@ -220,6 +245,10 @@ function MintNFT() {
                 const contractAddressBitcoin = '0xaC7e4Ad5d7557B78ebc84Dff668A06709f5Dc62B';
                 const contractAbiBitcoin = contractABI.contractAbiBitcoin;
 
+                const contractAddressPolygon = '0xd68B7C666b269B3FC9daAc7a3a446bE32999920E';
+
+                const contractAddressMantle = '0xaC7e4Ad5d7557B78ebc84Dff668A06709f5Dc62B';
+
                 // Choose the right contract and ABI based on network
                 let chosenContractAddress, chosenContractABI;
                 if (network === 'Goerli') {
@@ -228,7 +257,14 @@ function MintNFT() {
                 } else if (network === 'Rootstock') {
                     chosenContractAddress = contractAddressBitcoin;
                     chosenContractABI = contractAbiBitcoin;
+                } else if (network === 'Mantle') {
+                    chosenContractAddress = contractAddressMantle;
+                    chosenContractABI = contractAbiBitcoin;
+                } else if (network === 'Polygon') {
+                    chosenContractAddress = contractAddressPolygon;
+                    chosenContractABI = contractAbiBitcoin;
                 }
+
 
                 const contract = new web3.eth.Contract(chosenContractABI, chosenContractAddress);
 
@@ -247,7 +283,7 @@ function MintNFT() {
                     });
 
                     await transaction;
-                } else if (network === 'Rootstock') {
+                } else if (network === 'Rootstock' || network === 'Mantle' || network === 'Polygon') {
                     // Removed the line that estimates the gas
                     const gasPriceWei = '1500000000';
                     const hardcodedGas = '300000'; // This is a standard gas limit for simple transactions, you might need to adjust this value
@@ -263,7 +299,7 @@ function MintNFT() {
                     });
 
                     await transaction;
-                }
+                } 
 
 
 
@@ -399,8 +435,8 @@ function MintNFT() {
                     <div>
 
                         <div style={{ display: 'flex', alignItems: 'center', fontSize: '14px' }}>
-                            <label style={{ display: 'flex', alignItems: 'center', marginRight: '16px' }}><b>Select Network:</b></label>
-                            <label style={{ display: 'flex', alignItems: 'center', marginRight: '16px' }}>
+                            <label style={{ display: 'flex', alignItems: 'center', marginRight: '8px' }}><b>Select Network:</b></label>
+                            <label style={{ display: 'flex', alignItems: 'center', marginRight: '8px' }}>
                                 <input
                                     type="radio"
                                     value="Goerli"
@@ -411,7 +447,7 @@ function MintNFT() {
                                 <img src={ethLogo} alt="Ethereum logo" style={{ width: '20px', marginRight: '5px' }} /> Ethereum
                             </label>
 
-                            <label style={{ display: 'flex', alignItems: 'center' }}>
+                            <label style={{ display: 'flex', alignItems: 'center', marginRight: '8px' }}>
                                 <input
                                     type="radio"
                                     value="Rootstock"
@@ -420,6 +456,28 @@ function MintNFT() {
                                     style={{ marginRight: '5px' }}
                                 />
                                 <img src={btcLogo} alt="Bitcoin logo" style={{ width: '20px', marginRight: '5px' }} /> Bitcoin
+                            </label>
+
+                            <label style={{ display: 'flex', alignItems: 'center', marginRight: '8px' }}>
+                                <input
+                                    type="radio"
+                                    value="Mantle"
+                                    checked={network === 'Mantle'}
+                                    onChange={() => setNetwork('Mantle')}
+                                    style={{ marginRight: '5px' }}
+                                />
+                                <img src={mantleLogo} alt="Mantle logo" style={{ width: '20px', marginRight: '5px' }} /> Mantle
+                            </label>
+
+                            <label style={{ display: 'flex', alignItems: 'center', marginRight: '8px' }}>
+                                <input
+                                    type="radio"
+                                    value="Polygon"
+                                    checked={network === 'Polygon'}
+                                    onChange={() => setNetwork('Polygon')}
+                                    style={{ marginRight: '5px' }}
+                                />
+                                <img src={polygonLogo} alt="Polygon logo" style={{ width: '20px', marginRight: '5px' }} /> Polygon
                             </label>
                         </div>                    </div>
 
