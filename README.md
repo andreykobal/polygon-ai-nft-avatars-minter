@@ -13,6 +13,9 @@ This repository hosts a cutting-edge solution that enables users to create, mint
 
 ![ezgif-4-a42546f6e2](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/a0964d82-49e8-4f9c-b690-1f8f0775af49)
 
+![ezgif-4-e7295bc684](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/f8fef8ff-e3f1-4120-9f61-272f33a5b120)
+
+
 
 ## Video Demo 
 
@@ -48,8 +51,6 @@ This repository hosts a cutting-edge solution that enables users to create, mint
 3. 👾 Also use your avatar as a skin in the game for a unique experience.
 
 Enjoy the magic of AI-powered avatars in the exciting world of AILAND! 🌈🎉🚀
-
-![ezgif-4-e7295bc684](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/f8fef8ff-e3f1-4120-9f61-272f33a5b120)
 
 
 
