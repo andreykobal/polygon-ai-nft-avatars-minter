@@ -3,7 +3,7 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const GameItem = await hre.ethers.getContractFactory("GameItem");
+  const GameItem = await hre.ethers.getContractFactory("AINFT");
   const gameitem = await GameItem.deploy("MetaTxGameItem", "MTG");
 
   await gameitem.deployed();
