@@ -1,4 +1,4 @@
-# AI NFT Avatars on Polygon
+# AINFT Avatars on Polygon Implementation
 
 ![polygon-cover](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/f279e125-d201-442b-81b3-ceff2ff2ebba)
 
