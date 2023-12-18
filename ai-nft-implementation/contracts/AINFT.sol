@@ -214,7 +214,7 @@ contract NativeMetaTransaction is EIP712Base {
     }
 }
 
-contract GameItem is ERC721Enumerable, ContextMixin, NativeMetaTransaction, Ownable {
+contract AINFT is ERC721Enumerable, ContextMixin, NativeMetaTransaction, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     uint256 public mintingFee = 0.0005 ether;
