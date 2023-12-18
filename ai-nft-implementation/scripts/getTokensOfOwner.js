@@ -5,7 +5,7 @@ async function main() {
     const contractAddress = "0xaC7e4Ad5d7557B78ebc84Dff668A06709f5Dc62B";
     const walletAddress = "0x204f9781DDcafB4a844fd12250dB15183C67cACB";
 
-    const GameItem = await ethers.getContractFactory("GameItem");
+    const GameItem = await ethers.getContractFactory("AINFT");
     const gameItem = GameItem.attach(contractAddress);
 
     const tokensOfOwner = await gameItem.getTokensOfOwner(walletAddress);
