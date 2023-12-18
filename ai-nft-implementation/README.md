@@ -3,11 +3,11 @@
 ![polygon-cover](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/f279e125-d201-442b-81b3-ceff2ff2ebba)
 
 
-Welcome to the **AI NFT Avatars on Polygon** GitHub repository! This repository contains the Unity game project along with the smart contracts used in the game. Interactive AI NFT Avatars is an exciting 3D game where players use NFT avatars, complete quests, collect diamonds, and explore magical worlds.
+Welcome to the **AINFT Avatars on Polygon** GitHub repository! This repository contains the Unity game project along with the smart contracts used in the game. Interactive AINFT Avatars is an exciting 3D game where players use NFT avatars, complete quests, collect diamonds, and explore magical worlds.
 
 ## Project Setup
 
-To set up the AI NFT Avatars on Polygon project, please follow these steps:
+To set up the AINFT Avatars on Polygon project, please follow these steps:
 
 1. Clone the repository to your local machine using the following command:
    ```
@@ -24,7 +24,7 @@ To set up the AI NFT Avatars on Polygon project, please follow these steps:
 
 6. Configure the Metamask wallet by connecting it to the Polygon Testnet network and obtaining the necessary testnet tokens [Rootstock Docs](https://dev.rootstock.io/kb/remix-and-metamask-with-rsk-testnet/) 
 
-7. Build and run the game to start playing Interactive AI NFT Avatars!
+7. Build and run the game to start playing Interactive AINFT Avatars!
 
 ## Smart Contract Deployment
 
@@ -54,7 +54,7 @@ This is for gas-less transactions when transferring assets. Users dont have to p
 
 ### AINFT.sol
 
-The `AINFT.sol` contract is responsible for managing the 721 non-fungible token (NFT) avatars in Interactive AI NFT Avatars. Players can purchase avatars and own them using this contract.
+The `AINFT.sol` contract is responsible for managing the 721 non-fungible token (NFT) avatars in Interactive AINFT Avatars. Players can purchase avatars and own them using this contract.
 
 Important code snippets from `AINFT.sol`:
 
@@ -68,7 +68,7 @@ Important code snippets from `AINFT.sol`:
 
 ### AISFT.sol
 
-The `AISFT.sol` contract handles the 1155 semi-fungible token (SFT) diamonds in Interactive AI NFT Avatars. Players can collect these diamonds and use them to claim rewards.
+The `AISFT.sol` contract handles the 1155 semi-fungible token (SFT) diamonds in Interactive AINFT Avatars. Players can collect these diamonds and use them to claim rewards.
 
 Important code snippets from `AISFT.sol`:
 
@@ -135,7 +135,7 @@ This function reads JSON files, uploads associated files to NFT.Storage, generat
 
 ## Game Code Highlights
 
-Here are some C# code highlights from the Interactive AI NFT Avatars Unity project:
+Here are some C# code highlights from the Interactive AINFT Avatars Unity project:
 
 ### MintNFT.cs
 
@@ -477,14 +477,14 @@ This method uses the `SpeechSynthesizer` to synthesize speech from the provided 
 
 Thank you for your interest in contributing
 
- to Interactive AI NFT Avatars! If you would like to contribute, please follow these guidelines:
+ to Interactive AINFT Avatars! If you would like to contribute, please follow these guidelines:
 
 - Fork the repository and create a new branch for your contributions.
 - Make your changes and ensure that the code adheres to the project's coding style and conventions.
 - Test your changes thoroughly.
 - Submit a pull request describing your changes and the rationale behind them.
 
-We appreciate your contributions to make Interactive AI NFT Avatars an even more exciting game!
+We appreciate your contributions to make Interactive AINFT Avatars an even more exciting game!
 
 ## License
 
@@ -492,7 +492,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ## Acknowledgements
 
-We would like to express our gratitude to the open-source community for their valuable contributions and the resources that helped in the development of Interactive AI NFT Avatars.
+We would like to express our gratitude to the open-source community for their valuable contributions and the resources that helped in the development of Interactive AINFT Avatars.
 
-If you have any questions or encounter any issues, please don't hesitate to reach out. Enjoy playing Interactive AI NFT Avatars!
+If you have any questions or encounter any issues, please don't hesitate to reach out. Enjoy playing Interactive AINFT Avatars!
 
