@@ -212,7 +212,7 @@ contract NativeMetaTransaction is EIP712Base {
     }
 }
 
-contract GameItems is ERC1155, ContextMixin, NativeMetaTransaction {
+contract AISFT is ERC1155, ContextMixin, NativeMetaTransaction {
     // Contract name
     string public name;
 
