@@ -52,11 +52,11 @@ This is for gas-less transactions when transferring assets. Users dont have to p
 
 ## Smart Contract Code Highlights
 
-### GameItem.sol
+### AINFT.sol
 
-The `GameItem.sol` contract is responsible for managing the 721 non-fungible token (NFT) avatars in Interactive AI NFT Avatars. Players can purchase avatars and own them using this contract.
+The `AINFT.sol` contract is responsible for managing the 721 non-fungible token (NFT) avatars in Interactive AI NFT Avatars. Players can purchase avatars and own them using this contract.
 
-Important code snippets from `GameItem.sol`:
+Important code snippets from `AINFT.sol`:
 
 - `mintItem` function: This function mints a new avatar NFT with the provided token URI and assigns it to the caller's address.
   ```solidity
@@ -66,11 +66,11 @@ Important code snippets from `GameItem.sol`:
   }
   ```
 
-### GameItems.sol
+### AISFT.sol
 
-The `GameItems.sol` contract handles the 1155 semi-fungible token (SFT) diamonds in Interactive AI NFT Avatars. Players can collect these diamonds and use them to claim rewards.
+The `AISFT.sol` contract handles the 1155 semi-fungible token (SFT) diamonds in Interactive AI NFT Avatars. Players can collect these diamonds and use them to claim rewards.
 
-Important code snippets from `GameItems.sol`:
+Important code snippets from `AISFT.sol`:
 
 - `batchMint` function: This function allows the batch minting of diamond tokens with the provided token URIs and assigns them to the caller's address.
   ```solidity
