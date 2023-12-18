@@ -3,7 +3,7 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const GameItems = await hre.ethers.getContractFactory("GameItems");
+  const GameItems = await hre.ethers.getContractFactory("AISFT");
   // Example URI would be "https://sharpart-frontend.vercel.app/nft-metadata/jsons/{id}.json"
 
   const gameitems = await GameItems.deploy("Contract Name", "Base URI with id param");
