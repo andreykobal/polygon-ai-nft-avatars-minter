@@ -19,7 +19,7 @@ This repository hosts a cutting-edge solution that enables users to create, mint
 
 ## Video Demo 
 
-[YouTube: 🌟 Minting AI NFT Avatars on Polygon: An Immersive Guide! 🚀 ](https://www.youtube.com/watch?v=T9QJgNFNJIE)
+[YouTube: 🌟 Minting AI NFT Avatars on Polygon: An Immersive Guide! 🚀 ](https://www.youtube.com/watch?v=Nd-Ro3zvuks)
 
 ## Demo
 
