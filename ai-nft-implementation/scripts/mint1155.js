@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-    const GameItem = await hre.ethers.getContractFactory("GameItems");
+    const GameItem = await hre.ethers.getContractFactory("AISFT");
     const gameItem = await GameItem.attach('0xd68B7C666b269B3FC9daAc7a3a446bE32999920E');
 
     const NUM_ITEMS = 1;
