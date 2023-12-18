@@ -7,7 +7,7 @@ async function main() {
   const signerBalance = await hre.ethers.provider.getBalance(signer.address);
   //console.log("Signer balance:", hre.ethers.utils.formatEther(signerBalance));
 
-  const GameItem = await hre.ethers.getContractFactory("GameItem");
+  const GameItem = await hre.ethers.getContractFactory("AINFT");
   //console.log(GameItem);
 
   const gameItem = await GameItem.attach("0xaC7e4Ad5d7557B78ebc84Dff668A06709f5Dc62B");
