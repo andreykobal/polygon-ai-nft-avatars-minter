@@ -11,6 +11,8 @@ This repository hosts a cutting-edge solution that enables users to create, mint
 - The solution integrates with the Polygon testnet.
 - This integration creates a unique combination of AI, NFT, and Blockchain technologies.
 
+![AINFT avatar](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/e9ee7014-541c-4de9-a4fc-2efaa9f71575)
+
 ![ezgif-4-a42546f6e2](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/a0964d82-49e8-4f9c-b690-1f8f0775af49)
 
 ![ezgif-4-e7295bc684](https://github.com/andreykobal/polygon-ai-nft-avatars-minter/assets/19206978/f8fef8ff-e3f1-4120-9f61-272f33a5b120)
